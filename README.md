@@ -18,6 +18,7 @@ FoodOrder is a web application built with React for ordering food online.
 - HTML
 - CSS
 - Bootstrap
+![Screenshot 1](https://raw.githubusercontent.com/fidasalam/FoodApp-Reactjs/main/src/screenshots/Screenshot%202024-03-31%20020055.png)
 
 ## Installation
 
