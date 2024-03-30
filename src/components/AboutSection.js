@@ -3,8 +3,11 @@ import image from '../images/client1.jpg'
 
 const AboutUs = () => {
   return (
-    <section className="about_section layout_padding">
+    <section className="about_section layout_padding"id="about" >
       <div className="container">
+        <div className='text-center mb-5'>
+          <h1>About</h1>
+        </div>
         <div className="row">
           <div className="col-md-6">
             <div className="img-box">

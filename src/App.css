@@ -6,6 +6,7 @@ body {
   overflow-x: hidden;
 }
 
+
 .layout_padding {
   padding: 90px 0;
 }
@@ -910,8 +911,12 @@ a:focus {
   text-align: center;
 }
 
+.footer_section  a{
+  text-decoration: none;
+}
+
 .footer_section h4 {
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .footer_section h4,
@@ -1016,4 +1021,89 @@ a:focus {
 .product-info {
   display: flex;
   justify-content: space-between;
+}
+.added-to-cart {
+  background-color: green; /* Change to your desired color */
+  color: white; /* Change to your desired color */
+}
+
+.container {
+  padding: 20px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  width: 100px; /* Adjust image size as needed */
+  height: auto;
+  margin-right: 20px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 3px;
+}
+
+.quantity button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.remove-btn {
+  width: 42px;
+  background-color: #050505;
+  color: white;
+  border: none;
+  padding: 4px 4px; /* Adjust padding to make the button smaller */
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add smooth transition */
+  font-size: 14px; /* Adjust font size */
+}
+
+
+.remove-btn:hover {
+  background-color: #d23f45;
+}
+
+.total {
+  margin-top: 20px;
+  border-top: 2px solid #ccc; /* Add border above total */
+  padding-top: 20px; /* Add padding above total */
+}
+
+.total p {
+  font-size: 18px; /* Increase font size for total */
+}
+
+.checkout-btn {
+  background-color: #4caf50; /* Green color for checkout button */
+  color: white;
+  border: none;
+  padding: 12px 20px; /* Increase padding for larger button */
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 16px; /* Increase font size for button */
+  border-radius: 5px; /* Add rounded corners */
+  transition: background-color 0.3s; /* Add smooth transition */
+}
+
+.checkout-btn:hover {
+  background-color: #45a049; /* Darker green color on hover */
+}
+.cartbox{
+  margin-bottom: 300px;
 }

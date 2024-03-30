@@ -1,8 +1,8 @@
 import React from 'react';
 
-const OfferSection = ({ offers }) => {
+const OfferSection = ({ offers }) => { 
   return (
-    <section className="offer_section layout_padding-bottom">
+    <section className="offer_section layout_padding-bottom" id="offer"> 
       <div className="offer_container">
         <div className="container">
           <div className="row">

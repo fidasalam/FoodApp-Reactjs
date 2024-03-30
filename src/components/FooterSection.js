@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import { FaMapMarker, FaPhone, FaEnvelope, FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaPinterest } from 'react-icons/fa';
 
 const FooterSection = () => {
   const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
@@ -8,6 +8,11 @@ const FooterSection = () => {
     // Update current year when the component mounts
     setCurrentYear(new Date().getFullYear());
   }, []);
+
+
+  const iconStyle = {
+    color: 'white',
+  };
 
   return (
     <footer className="footer_section">
@@ -18,15 +23,15 @@ const FooterSection = () => {
               <h4>Contact Us</h4>
               <div className="contact_link_box">
                 <a href="#">
-                  <i className="fa fa-map-marker" aria-hidden="true"></i>
+                  <FaMapMarker />
                   <span>Location</span>
                 </a>
                 <a href="#">
-                  <i className="fa fa-phone" aria-hidden="true"></i>
+                  <FaPhone />
                   <span>Call +01 1234567890</span>
                 </a>
                 <a href="#">
-                  <i className="fa fa-envelope" aria-hidden="true"></i>
+                  <FaEnvelope />
                   <span>thecrust@gmail.com</span>
                 </a>
               </div>
@@ -39,11 +44,11 @@ const FooterSection = () => {
        
               </p>
               <div className="footer_social">
-                <a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="#"><i className="fa fa-linkedin" aria-hidden="true"></i></a>
-                <a href="#"><i className="fa fa-instagram" aria-hidden="true"></i></a>
-                <a href="#"><i className="fa fa-pinterest" aria-hidden="true"></i></a>
+                <a href="#"><FaFacebook /></a>
+                <a href="#"><FaTwitter /></a>
+                <a href="#"><FaLinkedin /></a>
+                <a href="#"><FaInstagram /></a>
+                <a href="#"><FaPinterest /></a>
               </div>
             </div>
           </div>

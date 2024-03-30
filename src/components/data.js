@@ -11,12 +11,15 @@ import img10 from '../images/f2.png';
 
 export const orders = [
   {
+    id:1,
     image: img7,
     productName: 'Classic Burger',
     starRating: 4,
     price: '225',
+    category:'burger'
   },
   {
+    id:2,
     image: img8,
     productName: 'Cheeseburger',
     starRating: 4.5,
@@ -24,6 +27,7 @@ export const orders = [
     category:'burger'
   },
   {
+    id:2,
     image: img10,
     productName: 'Bacon Burger',
     starRating: 4.2,
@@ -31,6 +35,7 @@ export const orders = [
     category:'burger'
   },
   {
+    id:3,
     image: img7,
     productName: 'Veggie Burger',
     starRating: 4.1,
@@ -38,6 +43,7 @@ export const orders = [
     category:'burger'
   },
   {
+    id:4,
     image: img3,
     productName: 'Margherita Pizza',
     starRating: 4.7,
@@ -45,6 +51,7 @@ export const orders = [
     category:'pizza'
   },
   {
+    id:5,
     image: img6,
     productName: 'Pepperoni Pizza',
     starRating: 4.9,
@@ -52,6 +59,7 @@ export const orders = [
     category:'pizza'
   },
   {
+    id:6,
     image: img4,
     productName: 'Spaghetti Carbonara',
     starRating: 4.3,
@@ -59,6 +67,7 @@ export const orders = [
     category:'pasta'
   },
   {
+    id:7,
     image: img9,
     productName: 'Fettuccine Alfredo',
     starRating: 4.4,
@@ -66,6 +75,7 @@ export const orders = [
     category:'pasta'
   },
   {
+    id:8,
     image: img5,
     productName: 'French Fries',
     starRating: 4.8,
